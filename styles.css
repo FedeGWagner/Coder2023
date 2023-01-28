@@ -1,0 +1,154 @@
+/* reseteo de estilos */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* barra navegacion */
+.navbar{
+    background-color: #ddd;
+}
+.navbar a{
+    color: #000;
+}
+.navbar-brand{
+    color: green !important;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    background-color: green;
+}
+.navbar-toggler i{
+    color: #fff;
+    font-size: 25px;
+}
+.nav-item{
+    text-align: center;
+}
+.nav-item:hover{
+    background-color: green;
+}
+
+.jumbotron{
+    height: 350px;
+    background-color: rgb(88, 64, 27);
+    background-image: url(img/wood-591631_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.botonera{
+    height: 100px;
+}
+.botonera a{
+    color: #fff;
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 20px;
+}
+.botonera a:hover{
+    background-color: rgb(1, 80, 1);
+}
+/* para cuando haces click en el boton */
+.botonera a:active{
+    border: 2px solid springgreen;
+}
+
+h2{
+    background-color: green;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0;
+}
+
+.img-smooth{
+    background-image: url(img/green-juice-769129_1920.jpg);
+    height: 400px;
+    background-size:cover;
+    background-color: springgreen;
+    background-position: center;
+}
+.titulo-smooth{
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+}
+
+h3::after{
+    content: "🥞";
+}
+
+/* .titulo-smooth p::first-line{
+    color: yellow;
+}
+.titulo-smooth p::first-letter{
+    color: red;
+    font-size: 50px;
+} */
+
+p::selection{
+    background-color: yellow;
+    color: #000;
+}
+
+.titulo-smooth h3{
+    text-align: center;
+}
+.titulo-smooth a{
+    color: green;
+    background-color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.img2{
+    background-image: url(img/breakfast-1804436_1920.jpg);
+}
+.img3{
+    background-image: url(img/breakfast-5204352_1920.jpg);
+}
+.img4{
+    background-image: url(img/meal-1307604_1920.jpg);
+}
+.f-dire{
+    background-color: green;
+}
+.f-enlaces{
+    background-color: #000;
+}
+.f-enlaces ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.f-enlaces a{
+    color: #fff;
+}
+.f-mapa{
+    background-color: #000;
+}
+h4{
+    text-align: center;
+    background-color: gainsboro;
+}
+
+::-webkit-scrollbar{
+    background-color: white;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(128, 128, 128, 0.548);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px #000;
+}
